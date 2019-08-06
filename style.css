@@ -6,8 +6,20 @@ header{
   border: 2px black solid;
 }
 
+.this{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
 .right-side{
   text-align: center;
+  margin: 5%;
+  flex-basis: 100%;
+}
+
+.left-side{
+  margin-left: 30%;
 }
 
 .blue-box{
@@ -20,8 +32,6 @@ header{
   background-color: blue;
   padding: 50px;
   border: 2px black solid;
-  margin-top: 60%;
-  margin-bottom: 0%;
 }
 
 .blue-background{
@@ -29,11 +39,6 @@ header{
   padding: 30px;
 }
 
-.this{
-  display: flex;
-}
-
-.white-box{
-  background-color: white;
-  flex-grow: 4;
+.article2{
+  text-align: left;
 }
