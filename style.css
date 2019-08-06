@@ -1,0 +1,39 @@
+header{
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border: 2px black solid;
+}
+
+.right-side{
+  text-align: center;
+}
+
+.blue-box{
+  background-color: lightblue;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.bottom-box{
+  background-color: blue;
+  padding: 50px;
+  border: 2px black solid;
+  margin-top: 60%;
+  margin-bottom: 0%;
+}
+
+.blue-background{
+  background-color: lightblue;
+  padding: 30px;
+}
+
+.this{
+  display: flex;
+}
+
+.white-box{
+  background-color: white;
+  flex-grow: 4;
+}
